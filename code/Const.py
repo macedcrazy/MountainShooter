@@ -1,6 +1,18 @@
 # C
 COLOR_ORANGE = (255,128, 0)
 COLOR_WHITE = (255,255,255)
+COLOR_YELLOW = (255,255,0)
+
+
+#E
+ENTITY_SPEED = {
+    'level1bg0': 0,   # Fundo distante, move muito devagar
+    'level1bg1': 1,   # Camada mais próxima, move devagar
+    'level1bg2': 2,   # Camada intermediária, move um pouco mais rápido
+    'level1bg3': 2.6,   # Camada intermediária mais rápida
+    'level1bg4': 3.6,   # Camada mais rápida
+    'level1bg5': 0,   # Camada mais próxima e mais rápida
+}
 
 
 # M
