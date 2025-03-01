@@ -16,12 +16,26 @@ ENTITY_SPEED = {
     'level1bg5': 5,  # Camada mais próxima e mais rápida
     'Player1': 3,  # Velocidade Player 1
     'Player2': 3,  # Velocidade Player 2
-    'jinn1' :  2,
-    'Dragon':  1,
-    'Demon' :  1,
-    'Medusa':  1,
+    'jinn1': 2,
+    'Dragon': 1,
+    'Demon': 1,
+    'Medusa': 1,
 }
 
+ENTITY_HEALTH = {
+    'level1bg0': 999,
+    'level1bg1': 999,
+    'level1bg2': 999,
+    'level1bg3': 999,
+    'level1bg4': 999,
+    'level1bg5': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'jinn1': 50,
+    'Dragon': 60,
+    'Demon': 70,
+    'Medusa': 100,
+}
 
 # M
 MENU_OPTION = ('NEW GAME 1P',
@@ -30,26 +44,21 @@ MENU_OPTION = ('NEW GAME 1P',
                'SCORE',
                'EXIT')
 
-
 # P
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
-                 'Player2': pygame.K_s}
+                   'Player2': pygame.K_s}
 PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
-                 'Player2': pygame.K_a}
+                   'Player2': pygame.K_a}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
-                 'Player2': pygame.K_d}
+                    'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                 'Player2': pygame.K_LCTRL}
+                    'Player2': pygame.K_LCTRL}
 
 # S
 
 SPAW_TIME = 4000
-
-
-
-
 
 # W
 WIN_WIDTH = 576

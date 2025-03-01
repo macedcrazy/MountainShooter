@@ -24,13 +24,13 @@ class EntityFactory:
             case 'Player2':
                 return Player('Player2', (10, WIN_HEIGHT / 2 + 30))
             case 'jinn1':
-                return Enemy('jinn1', (WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
+                return Enemy('jinn1', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
             case 'Dragon':
-                return Enemy('Dragon', (WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
+                return Enemy('Dragon', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
             case 'Demon':
-                return Enemy('Demon', (WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
+                return Enemy('Demon', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
             case 'Medusa':
-                return Enemy('Medusa', (WIN_WIDTH + 10, random.randint(40, WIN_HEIGHT - 40)))
+                return Enemy('Medusa', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
 
 
 
