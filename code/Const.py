@@ -16,10 +16,16 @@ ENTITY_SPEED = {
     'level1bg5': 5,  # Camada mais próxima e mais rápida
     'Player1': 3,  # Velocidade Player 1
     'Player2': 3,  # Velocidade Player 2
-    'jinn1': 2,
+    'jinn1': 1,
     'Dragon': 1,
     'Demon': 1,
     'Medusa': 1,
+    'Player1Shot': 1,
+    'Player2Shot': 1,
+    'jinn1Shot': 5,
+    'DragonShot': 2,
+    'DemonShot': 2,
+    'MedusaShot': 5,
 }
 
 ENTITY_HEALTH = {
@@ -35,6 +41,23 @@ ENTITY_HEALTH = {
     'Dragon': 60,
     'Demon': 70,
     'Medusa': 100,
+    'Player1Shot': 1,
+    'Player2Shot': 1,
+    'jinn1Shot': 2,
+    'DragonShot': 1,
+    'DemonShot': 1,
+    'MedusaShot': 2,
+
+}
+
+ENTITY_SHOT_DELAY = {
+    'Player1': 20,
+    'Player2': 15,
+    'jinn1': 100,
+    'Dragon': 200,
+    'Demon': 200,
+    'Medusa': 100,
+
 }
 
 # M
@@ -53,7 +76,7 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
                    'Player2': pygame.K_a}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
-PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_DELETE,
                     'Player2': pygame.K_LCTRL}
 
 # S
