@@ -1,11 +1,56 @@
 # C
 import pygame
 
-COLOR_ORANGE = (255, 128, 0)
-COLOR_WHITE = (255, 255, 255)
-COLOR_YELLOW = (255, 255, 0)
+C_ORANGE = (255, 128, 0)
+C_WHITE = (255, 255, 255)
+C_YELLOW = (255, 255, 0)
+C_GREEN = (0, 128, 0)
+C_CYAN = (0, 128, 128)
+
 
 # E
+ENTITY_DAMAGE = {
+    'level1bg0': 0,
+    'level1bg1': 0,
+    'level1bg2': 0,
+    'level1bg3': 0,
+    'level1bg4': 0,
+    'level1bg5': 0,
+    'Player1': 1,
+    'Player2': 1,
+    'jinn1': 1,
+    'Dragon': 1,
+    'Demon': 1,
+    'Medusa': 1,
+    'Player1Shot': 25,
+    'Player2Shot': 25,
+    'jinn1Shot': 25,
+    'DragonShot': 15,
+    'DemonShot': 15,
+    'MedusaShot': 25,
+
+}
+ENTITY_SCORE = {
+    'level1bg0': 0,
+    'level1bg1': 0,
+    'level1bg2': 0,
+    'level1bg3': 0,
+    'level1bg4': 0,
+    'level1bg5': 0,
+    'Player1': 0,
+    'Player2': 0,
+    'jinn1': 100,
+    'Dragon': 50,
+    'Demon': 50,
+    'Medusa': 100,
+    'Player1Shot': 0,
+    'Player2Shot': 0,
+    'jinn1Shot': 0,
+    'DragonShot': 0,
+    'DemonShot': 0,
+    'MedusaShot': 0,
+
+}
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENTITY_SPEED = {
     'level1bg0': 0,  # Fundo distante, move muito devagar
@@ -27,6 +72,8 @@ ENTITY_SPEED = {
     'DemonShot': 2,
     'MedusaShot': 5,
 }
+
+
 
 ENTITY_HEALTH = {
     'level1bg0': 999,
