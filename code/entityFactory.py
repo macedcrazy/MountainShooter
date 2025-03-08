@@ -19,6 +19,12 @@ class EntityFactory:
                     list_bg.append(Background(f'level1bg{i}', (0, 0)))
                     list_bg.append(Background(f'level1bg{i}', (WIN_WIDTH, 0)))
                 return list_bg
+            case 'level2bg':
+                list_bg = []
+                for i in range(5):
+                    list_bg.append(Background(f'level2bg{i}', (0, 0)))
+                    list_bg.append(Background(f'level2bg{i}', (WIN_WIDTH, 0)))
+                return list_bg
             case 'Player1':
                 return Player('Player1', (10, WIN_HEIGHT / 2 - 30))
             case 'Player2':
@@ -31,9 +37,3 @@ class EntityFactory:
                 return Enemy('Demon', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
             case 'Medusa':
                 return Enemy('Medusa', (WIN_WIDTH + 10, random.randint(50, WIN_HEIGHT - 50)))
-
-
-
-
-
-
